@@ -1,0 +1,19 @@
+Pseudo classes em links
+
+*depende da interação do usuario
+
+Pseudo-classes:
+
+a:link{ ... }      OBS: NÃO PODE HAVER ESPAÇO
+    a:visited {...}  -> quando o usuario ja visitou o link
+        a:hover {...}  -> passar o mouse sobre o link
+            a:active {...} -> quando o usuario ta com o botao precinando o link
+
+
+
+link-style:
+
+list-style-type  -> tipo do buddy
+list-style-position -> se é mais interno ou mais externo
+list-style-image  -> para imagem
+

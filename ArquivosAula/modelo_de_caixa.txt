@@ -1,0 +1,34 @@
+BOX MODEL ou MODELO DE CAIXA
+-> Cada vez que usamos uma tag ela se comporta como uma CAIXA
+que pode ser formatada e editada de acordo com seu conteudo, tamanho,
+borda 
+
+Propriedade Margin:
+
+p{
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+TAMBÉM DA PRA FAZER ASSIM - forma abreviada
+
+p{ margin: 50px 40px 30px 20px} 
+OBS: LEMBRAR Q É ESSA SEQUENCIA
+
+Propriedade Border:
+
+h1{
+    border-style: dotted;
+    border-width: 5px;
+    border-collor: red;
+
+}
+
+TBM DA PRA FAZER DA FORMA RESUMIDA
+h1 { border: dotted 5px red; }
+
+
+
+

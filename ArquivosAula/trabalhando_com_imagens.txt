@@ -1,0 +1,33 @@
+TRABALHANDO COM IMAGENS
+
+Duas formas para inserirmos imagens:
+
+HTML
+<img src="..." alt="...">
+alt = texto alternativo, texto que aparece caso de algum problema na imagem
+ou tbm utilizada por deficientes visuais que escutam o que é a imagem
+
+Quando utilizamos a imagem no html: onde vamos inserir o conteudo, se a imagem tem
+uma carga informativa na pagina ela deve ser feita com html
+
+CSS
+background-image: url(...);
+
+Quando utilizamos a imagem no css: se a imagem é decorativa, somente utilizada 
+por design, ou pra deixar mais bonita é usada no css.
+
+
+TIPOS DE IMAGEM:
+
+.jpg/.jpeg -> se a imagem existe a extensão .jpg vc vai precisar colocar essa extensão no html 
+é utilizado normalmente com fotografias, perde um pouco de qualidade mas é aceitavel
+
+.png -> bastente utilizado pra fotografia e pra poucas cores/transparencia
+
+.gif -> aceita transparencia (porem uma transparencia mais dura, tem uns pixels sobrando), aceitavel quando tem poucas cores alem de gifs animados
+
+.svg -> formato de arquivo vetorial: tem a vantagem de nao perder a resolução no zoom. tbm é bastante leve, tbm n precisa preocupar com tamanho do arquivo
+
+.webp -> formato novo do google, também é bitmap(formado por pixels) desvantagem é que n da pra usar em todos os browsers
+
+Como incluir imagens: colocar uma pasta imagens na pasta do prijeto com 3 imagens 

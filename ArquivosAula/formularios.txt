@@ -1,0 +1,65 @@
+Como criar formularios: no html so fazemos a parte visual do formularios
+
+É necessario um servidor para os dados, a parte do servidor (back-end) é feita pelo servidor
+
+PRINCIPAIS TAGS:
+<form action="http://google.com/search" method="get">
+    <label for="unico">titulo</label>
+    <input type="text" name="q" id="unico> entrada de dados do tipo texto
+    <input type="submit" value="ok"> BOTÃO PRA ENVIAR 
+
+</form>
+
+ORGANIZANDO ENTRADA DE DADOS:
+Exemplo: login e senha
+
+<form action="pagina.php" method="post">
+<fieldset>
+    <legend>Login</legend>
+    <label for="log">User:</label>
+    <input type="text" name="text" id="log">
+    <label for="pass">Password:</label>
+    <input type="password" name="pass" id="pass">
+</fieldset>
+<input type="submit" value="Login">
+</form>
+
+
+TIPOS DE ENTRADA DE DADOS:
+
+input
+-text
+-password 
+-checkbox 
+-radio 
+-file 
+-hidden 
+-submit 
+-button 
+-reset
+
+
+input (HTML5)
+-email
+-tel 
+-url
+-search
+-number 
+-range 
+-date
+-time
+-color
+
+ATRIBUTOS:
+- autofocus
+- checked
+- required
+- maxlength
+- multiple
+- placeholder
+- max 
+- mim 
+- cols
+- rown
+- size 
+- step

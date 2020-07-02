@@ -1,0 +1,36 @@
+Listas aninhadas -> uma lista dentro da outra
+
+<ul>
+    <li></li>
+    <li>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+        </li>
+        <li></li>
+    </div>
+
+
+Listas de Definição -> um dicionario, temos um termo e uma Definição
+
+<dl>
+    <dt></dt>
+    <dd></dd>
+    <dt></dt>
+    <dd></dd>
+</dl>
+
+<dl>
+    <dt></dt>
+    <dd></dd>
+    <dd></dd>
+    <dd></dd>
+</dl>
+
+<dl>
+    <dt></dt>
+    <dt></dt>
+    <dt></dt>
+    <dd></dd>
+</dl>

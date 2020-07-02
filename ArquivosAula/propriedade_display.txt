@@ -1,0 +1,20 @@
+Propriedade Display -> inline, block, inline-block, none
+
+Elemento de nivel de bloco: sempre ocupa a area toda disponivel
+gera uma quebra de linha
+
+Element de nivel de linha: funciona como se fosse uma linha mesmo,
+não gera quebra de linha e não ocupa o espaço todo
+
+
+Block: <p>, <h1> ... <h6>, <div>, <ul>, <ol>, <li>, <footer>
+
+Inline: <a>, <strong>, <b>, <em>, <i>, <span>, <img>
+
+
+span{
+    display: inline-block;
+    padding: 25px;
+}
+
+none -> remove td mundo da visualização da página

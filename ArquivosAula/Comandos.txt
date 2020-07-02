@@ -1,0 +1,83 @@
+Comandos de HTML:
+
+TAGS DE TITULOS:
+- Servem para hierarquisar a informação
+<h1> </h1> -> titulo 1 
+<h2> </h2> -> titulo 2
+<h3> </h3> -> titulo 3
+<h4> </h4> -> titulo 4
+<h5> </h5> -> titulo 5
+<h6> </h6> -> titulo 6 
+
+<br> -> Quebra de linha
+<hr> -> quebra de linha mostrando uma linha(tipo uma regua)
+
+<p> </p> -> paragrafo
+
+<h2> </h2> -> subtitulo
+
+<i> </i> -> itálico
+
+<em> itálico semântico </em>  // é pra dar enfase 
+
+<b> negrito </b>
+
+<strong> negrito semântico </strong>
+
+LISTAS NÃO ORDENADAS:
+ordem nao importa
+
+<ul>
+    <li> ... </li>
+    <li> ... </li>   -> item de lista
+    <li> ... </li>
+</ul>
+
+LISTA ORDENADA:
+a lista precisa seguir uma ordem
+
+<ol>
+    <li> ... </li>
+    <li> ... </li>   -> item de lista
+    <li> ... </li>
+</ol>
+
+LINKS:
+
+<p> Texto com <a>link</a> aqui </p>
+
+exemplo:
+<p> saiba mais sobre <a>HTML5</a> visitando nosso blog
+e seja feliz </p>
+* para colocar um link a ser redirecionado no HTML5 usar 
+atributos
+
+ATRIBUTOS:
+
+<tag atributo="valor"> texto aqui </tag>
+
+<p> saiba mais sobre
+<a href="http://www.blablabla.com.br">HTML5</a>
+visitando nosso blog e seja feliz </p>
+
+ATRIBUTO target: usado para quando quer abrir o link em outra aba
+<p> saiba mais sobre
+<a href="http://www.blablabla.com.br"
+target="_blank">HTML5</a>
+visitando nosso blog e seja feliz </p>
+
+
+OUTROS TIPOS DE LINKS:
+
+<a href="http://www.blabla.co.br">  link externo
+<a href="outrapagina.html">  dentro do proprio site
+<a href="#secao">  na mesma pagina
+<a href="mailto:alguem@server.com">  link de email
+
+
+TAGS ANINHADAS:
+
+<p> Texto com <i> itálico </i> <p>
+
+OBS: PARA COMENTAR EM HTML USAR:
+<!--  -->

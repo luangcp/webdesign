@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!-- PRIMEIRA COISA A SE COLOCAR NA PAGINA SEMPRE-->
+
+<!-- doctype informa ao agente de usuario a versão do html
+que deve ser renderizada-->
+
+<html lang="pt-br"> <!--COLOCAR SEMPRE A LINGUAGEM NA ABERTURA HTML-->
+    <head> <!-- Bom lembrar que o head tem coisas ocultas que não aparecem no site mas são importantes pra estruturação do site-->
+        <title> transições</title>
+        <meta charset="utf-8">  <!--lembrar de colocar é importante pra codificação pra poder usar ç, ~, etc..-->
+        <meta name="author" content="Luan"> <!--Nome do autor nos mecanismos de busca-->
+        <meta name="description" content="lista de documentos"> <!-- Descrição, tambem importante pros mecanismos de busca-->
+        <meta name="keywords" content="html5, tecnologia"> <!--Listas de tags, tambem importantes para mecanismos de busca-->
+
+        <style>
+            div{
+                width: 100px;
+                height: 100px;
+                background-color: olivedrab;
+
+
+                /* para testar a animação do transition 
+                usar o site: cubic-bezier.com */
+                transition-property: width, height;
+                transition-duration: 1s, 3s;
+                transition-timing-function: cubic-bezier(.67, -0.38, .5, 1.5);
+                transition-delay: 0s, .8s;
+            }
+
+            div:hover{
+                width: 200px;
+                height: 200px;
+            }
+            
+        </style>
+    </head>
+
+    <body> <!-- A partir daqui inicia o site -->
+        <h1>Transições</h1>
+        <div>TRANSIÇÕES</div>
+    </body>
+</html> <!-- SEMPRE DEVE TERMINAR COM HTML FECHANDO-->

@@ -1,0 +1,70 @@
+Propriedade Position -> static; relative; absolute. fixed;
+
+Posicionando os elementos na tela
+
+
+STATIC (default) é o padrão -> a ordem que os elementos aparecem na tela é a msm que aparece no html
+
+#container div{
+    width: 350px;
+    position: static;
+}
+
+<div id="container">
+    <div class"div1"></div>
+    <div class"div2"></div>
+    <div class"div3"></div>
+</div>
+
+RELATIVE ->  da sua posição original ele se movimenta em relação a ele mesmo
+
+#container div{
+    width: 350px;
+    position: static;
+}
+
+#container .div3 {  -> somente a div3 com posicionamento relative
+    position: relative;
+    left:15px;  -> se movimentou 15px da sua esquerda (indo pra direita)
+    top:15px;  -> se movimentou 15px do topo (indo pra baixo)
+}
+OBS: O POSICIONAMENTO ORIGINAL É PRESERVADO
+
+ABSOLUTE  -> passa a se referenciar pelo documento, se relaciona com o primeiro elemento pai Posicionado 
+um elemento posicionado é aquele que recebe qualquer valor de position exceto o static 
+
+
+#container{
+    widht: 550px;
+    position: static;
+}
+
+#containe .div2{
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+
+FIXED -> tbm é ummelemento posicionado mas que não é relacionado mais nem a ele mesmo nem ao elemento anterior, mas sim sempre a janela do browser.
+Sempre vai ficar fixo na tela
+
+#container{
+    widht: 550px;
+    position: static;
+}
+
+#container .div2 {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+
+OBS: Tanto o absolute quando o fixed mudam o fluxo do documento
+
+
+PROPRIEDADE z-index -> é a que vai empilhar um elemento sobre o outro, ordena
+o seu valor padrão é o 0
+
+quanto maior o valor do z-index ele sempre vai ficar por cima dos com valor menor
+

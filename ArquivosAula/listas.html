@@ -1,0 +1,67 @@
+<!DOCTYPE html> <!-- PRIMEIRA COISA A SE COLOCAR NA PAGINA SEMPRE-->
+
+<!-- doctype informa ao agente de usuario a versão do html
+que deve ser renderizada-->
+
+<html lang="pt-br"> <!--COLOCAR SEMPRE A LINGUAGEM NA ABERTURA HTML-->
+    <head> <!-- Bom lembrar que o head tem coisas ocultas que não aparecem no site mas são importantes pra estruturação do site-->
+        <title> página de exemplo estrutura basica</title>
+        <meta charset="utf-8">  <!--lembrar de colocar é importante pra codificação pra poder usar ç, ~, etc..-->
+        <meta name="author" content="Luan"> <!--Nome do autor nos mecanismos de busca-->
+        <meta name="description" content="lista de documentos"> <!-- Descrição, tambem importante pros mecanismos de busca-->
+        <meta name="keywords" content="html5, tecnologia"> <!--Listas de tags, tambem importantes para mecanismos de busca-->
+
+        <style>
+
+            li ul{
+                height: 0;
+                overflow: hidden;
+                transition: height .5s;
+            }
+
+            li:hover{
+                background: #ccc;
+            }
+            li:hover ul{
+                height: 50px;
+            }
+            
+        </style>
+    </head>
+
+    <body> <!-- A partir daqui inicia o site -->
+        <!--LISTAS ORDENADAS:-->
+        <!--LISTA ANINHADAS-->
+        <ul>
+            <li>item 1</li>
+            <li>item 2
+                <ul>
+                   <li>item 2.1</li> 
+                   <li>item 2.2</li>
+                </ul>
+            </li>
+            <li>item 3</li>
+        </ul>
+
+        <hr>
+            <!--LISTA DE DEFINIÇÃO -->
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação de hypertexto</dd>
+
+            <dd>CSS</dt>
+                <dd>Linguagem para criação de folhas se estilos</dd>
+        </dl>
+
+        <hr>
+
+        <dl>
+            <dt>www</dt>
+            <dt>internet</dt>
+            <dd>rede mundial de computadors</dd>
+
+            <dt>Javascript</dt>
+            <dd>Linguagem script para internet</dd>
+        </dl>
+    </body>
+</html> <!-- SEMPRE DEVE TERMINAR COM HTML FECHANDO-->

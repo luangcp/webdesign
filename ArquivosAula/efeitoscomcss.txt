@@ -1,0 +1,9 @@
+EFEITOS LEGAIS COM CSS:
+border-radius -> CANTO ARREDONDADO, DA PRA FAZER UMA ESFERA
+box-shadow -> Fazer mais ou menos um efeito de sombra 
+text-shadow -> Fazer efeitos de sombra em texto
+gradientes lineares -> faz uma mescla de cores de fundo
+fontes customizadas -> Fontes customizadas baixadas 
+transições -> mudança suave de alguma propriedade. (FAZ UMA ANIMAÇÃO NUM HOVER POR EXEMPLO)
+
+LEMBRANDO QUE HOVER É QUANDO VC PASSA O MOUSE POR CIMA

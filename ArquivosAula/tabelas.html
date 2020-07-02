@@ -1,0 +1,104 @@
+<!DOCTYPE html> <!-- PRIMEIRA COISA A SE COLOCAR NA PAGINA SEMPRE-->
+
+<!-- doctype informa ao agente de usuario a versão do html
+que deve ser renderizada-->
+
+<html lang="pt-br"> <!--COLOCAR SEMPRE A LINGUAGEM NA ABERTURA HTML-->
+    <head> <!-- Bom lembrar que o head tem coisas ocultas que não aparecem no site mas são importantes pra estruturação do site-->
+        <title> Tabelas</title>
+        <meta charset="utf-8">  <!--lembrar de colocar é importante pra codificação pra poder usar ç, ~, etc..-->
+        <meta name="author" content="Luan"> <!--Nome do autor nos mecanismos de busca-->
+        <meta name="description" content="lista de documentos"> <!-- Descrição, tambem importante pros mecanismos de busca-->
+        <meta name="keywords" content="html5, tecnologia"> <!--Listas de tags, tambem importantes para mecanismos de busca-->
+
+        <style>
+            body{
+                font-family: sans-serif;
+
+            }
+            table{
+                border-collapse: collapse;
+                width: 80%;
+                margin: auto;
+                background: beige;
+            }
+
+            th{
+                background: rgb(102, 78, 78);
+                border: 2px solid chocolate;
+            }
+            td{
+                border: 1px solid black;
+                text-align: center;
+                
+            }
+
+            
+        </style>
+    </head>
+
+    <body> <!-- A partir daqui inicia o site -->
+        
+        <table>
+            <caption>Tabela de preços de cursos</caption> <!--TITULO DA TABELA-->
+        
+            <thead>
+                <tr>
+                    <th>Área</th>
+                    <th>Curso</th>
+                    <th>Investimento</th>
+                </tr>
+
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">Valores sujeitos a alterações sem previo aviso</td>
+                </tr>
+            </tfoot>
+
+            <tbody>
+                <tr>
+                    <td>Engenharia</td>
+                    <td>Engenharia de contole e automação</td>
+                    <td>1.000,00</td>
+                </tr>
+
+                <tr>
+                    <td>Medicina</td>
+                    <td>Medicina Veterinaria</td>
+                    <td>2.500,00</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="4">Development</td>
+                    <td>HTML</td>
+                    <td>500,00</td>
+                </tr>
+
+                <tr>
+                    
+                    <td>CSS</td>
+                    <td>500,00</td>
+                </tr>
+
+                <tr>
+                    
+                    <td>JAVA</td>
+                    <td>500,00</td>
+                </tr>
+
+                <tr>
+                    
+                    <td>PHP</td>
+                    <td>500,00</td>
+                </tr>
+            </tbody>
+        
+        
+        
+        
+        </table>
+
+    </body>
+</html> <!-- SEMPRE DEVE TERMINAR COM HTML FECHANDO-->

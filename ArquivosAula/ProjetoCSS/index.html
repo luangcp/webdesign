@@ -1,0 +1,149 @@
+<!DOCTYPE html> <!-- PRIMEIRA COISA A SE COLOCAR NA PAGINA SEMPRE-->
+
+<!-- doctype informa ao agente de usuario a versão do html
+que deve ser renderizada-->
+
+<html lang="pt-br"> <!--COLOCAR SEMPRE A LINGUAGEM NA ABERTURA HTML-->
+    <head> <!-- Bom lembrar que o head tem coisas ocultas que não aparecem no site mas são importantes pra estruturação do site-->
+        <title> Site desafio Framework</title>
+        <meta charset="utf-8">  <!--lembrar de colocar é importante pra codificação pra poder usar ç, ~, etc..-->
+        <meta name="author" content="Luan"> <!--Nome do autor nos mecanismos de busca-->
+        <meta name="description" content="Site Desafio Framework"> <!-- Descrição, tambem importante pros mecanismos de busca-->
+        <meta name="keywords" content="html5, CSS"> <!--Listas de tags, tambem importantes para mecanismos de busca-->
+
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body> <!-- A partir daqui inicia o site -->
+        
+        <div id="principal">
+            <header class="primeiro">
+                <nav>
+                    <ul>
+                        <li><a href="postagens.html">POSTAGENS</a></li>
+                        <li><a href="albuns.html">ALBUNS</a></li>
+                        <li><a href="todos.html">TO-DOs</a></li>
+                    </ul>
+                </nav>
+                <div class="primeiro-content">
+                    <h1>DESAFIO</h1>
+                    <p>ESTÁGIO FRAMEWORK PADAWANS</p>
+
+                </div>
+            </header>
+            <form action="http://google.com/search" method="GET"
+        target="_blanck">
+            <label for="txtbusca">Faça uma busca</label>
+            <input type="text" name="q" id="txtbusca">
+            <input type="submit" value="ok">
+
+        <hr>
+        <hr>
+            
+        </form>
+
+            <main>
+
+                <section class="content-section">
+                    <div class="card card-1">
+                        <img src="imagensblog/im1.jpg" alt="Cachorro Pug" >
+                        <p><a href="postagens.html">POSTAGENS</a></p>
+                    </div>
+
+                    <div class="card card-2">
+                        <img src="imagensblog/framework2.jpg" alt="Python">
+                        <p><a href="albuns.html">ALBUNS</a></p>
+                    </div>
+
+                    <div class="card card-3">
+                        <img src="imagensblog/im1.jpg" alt="programação">
+                        <p><a href="todos.html">TO-DOs</a></p>
+                    </div>
+
+                </section>
+                <hr>
+                <hr>
+                <section class="content-section">
+                    <article>
+                        <header class="segundo"><h2>CONTATO</h2></header>
+
+                            <form action="pagina.php" method="GET" class="formLogin">
+                                <fieldset>
+                                    <legend>Dados Pessoais</legend>
+                    
+                                    <label>Email</label>
+                                    <input class="email" type="email" required placeholder="Digite um email valido"> 
+                                    <br>
+                                    <label>Idade</label>
+                                    <input class="idade" type="number" min="0" max="1000" placeholder="Escreva sua idade">
+                                    <p>Sexo:</p>
+                                    <label>Masculino
+                                    <input class="sexo" type="radio" name="sexo" value="M">
+                                    </label>
+                    
+                                    <label>Feminino
+                                    <input class="sexo" type="radio" name="sexo" value="F">
+                                    </label>
+                                    <br>
+                    
+                                    <label>Estado</label>
+                                    <select class="select"> 
+                                        <option value="0">Selecione</option>
+                                        <option value="MG">Minas Gerais</option>
+                                        <option value="SP">São Paulo</option>
+                                        <option value="MG">Rio de Janeiro</option>
+                                        <option value="MG">Rio Grande do Sul</option>
+                                    </select>
+                                    <br>
+                                    <label>Nascimento</label>
+                                    <input type="date">
+                                </fieldset>
+                                <br>
+                    
+                                <fieldset>
+                                    <legend>Área de interesse</legend>
+                    
+                                    <label><input type="checkbox" name="python" value="python">Python </label>
+                                    <label><input type="checkbox" name="html" value="html">HTML </label>
+                                    <label><input type="checkbox" name="css" value="css">CSS </label>
+                                    <label><input type="checkbox" name="c/c++" value="c/c++">C/C++ </label>
+                                    <label><input type="checkbox" name="java" value="java">JAVA </label>
+                                    <label><input type="checkbox" name="PHP" value="PHP">PHP </label>
+                                    <label><input type="checkbox" name="IOS" value="IOS">IOS </label>
+                                    <label><input type="checkbox" name="ANDROID" value="ANDROID">ANDROID </label>
+                                </fieldset>
+                    
+                                <fieldset>
+                                    <legend>Mensagem</legend>
+                                    <textarea class="mensagem" name="msg" cols="30" rows="10" placeholder="Escreva seu curriculo"></textarea>
+                    
+                                    <textarea class="mensagem" name="contrato" cols="30" rows="10" readonly>Você aceita fornecer seus dados para envio da mensagem? Se sim marque a caixa ao lado.
+                                    </textarea>
+                                    <label><input type="checkbox">Li e aceito</label>
+                    
+                                    
+                    
+                    
+                    
+                                </fieldset>
+                                    <input type="submit" value="enviar">
+                                    <input type="button" value="preciso de ajuda">
+                                    <input type="reset" value="limpar">
+                                
+                                
+                                </form>
+
+                    </article>
+
+                </section>
+            </main>
+
+            <footer class="rodape">
+                <p> Copyright &copy; Belo Horizonte | MG | 2020 </p>
+            </footer>
+
+
+        </div>
+
+    </body>
+</html> <!-- SEMPRE DEVE TERMINAR COM HTML FECHANDO-->

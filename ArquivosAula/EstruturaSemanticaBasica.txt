@@ -1,0 +1,33 @@
+Sempre quando começar qualquer codigo HTML devemos começar 
+e terminar o codigo com html. 
+Dentro disso devemos ter sempre duas estruturas: head e body
+
+<! doctype html>
+<html lang="pt-br">
+
+   <head>
+        <title> título da página </title>
+        <meta tags >
+        <link para arquivos externos>
+   <head>
+
+   <body>
+        <!-- conteúdo da página -->
+        <h1> título da página </h1>
+        <p> texto </p>
+        <ul>
+            <li> item da lista </li>
+        </ul>
+   <body>
+
+<html>
+
+
+Doctype: e uma maneira de informar o tipo de documento que to escrevendo
+charset: indica o tipo de codificação da pagina no caso é utf-8
+
+IMAGENS, ARQUIVOS EXTERNOS E LINKS
+
+<a>       <link>    <img>   <script>
+href       href      src     src
+title       rel      alt

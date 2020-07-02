@@ -1,0 +1,79 @@
+<!DOCTYPE html> <!-- PRIMEIRA COISA A SE COLOCAR NA PAGINA SEMPRE-->
+
+<!-- doctype informa ao agente de usuario a versão do html
+que deve ser renderizada-->
+
+<html lang="pt-br"> <!--COLOCAR SEMPRE A LINGUAGEM NA ABERTURA HTML-->
+    <head> <!-- Bom lembrar que o head tem coisas ocultas que não aparecem no site mas são importantes pra estruturação do site-->
+        <title> página de exemplo estrutura basica</title>
+        <meta charset="utf-8">  <!--lembrar de colocar é importante pra codificação pra poder usar ç, ~, etc..-->
+        <meta name="author" content="Luan"> <!--Nome do autor nos mecanismos de busca-->
+        <meta name="description" content="lista de documentos"> <!-- Descrição, tambem importante pros mecanismos de busca-->
+        <meta name="keywords" content="html5, tecnologia"> <!--Listas de tags, tambem importantes para mecanismos de busca-->
+
+        <style>
+            body{
+                font-family: sans-serif;
+                color: black;
+                background-color: rgb(45, 160, 154);
+
+            }
+
+            h1{
+                color: aliceblue;
+                background-color: black;
+            }
+
+            a{
+                color:brown;
+            }
+
+            a:hover{
+                color:blueviolet;
+            }
+            a:visited{
+                color:rgb(184, 167, 11);
+            }
+            a:active{
+                color:indigo;
+            }
+
+            ul li{
+                list-style-type: disc;
+            }
+
+            ol li{
+                list-style-type:upper-roman;
+                
+            }
+            
+
+
+
+        </style>
+    </head>
+
+    <body> <!-- A partir daqui inicia o site -->
+        <h1>Aula 6 -> LINKS EM HTML</h1>
+        <hr>
+        <a href="01_teste.hrml">veja o arquivo 01 teste.html</a>
+        <a href="02_tags.html">Veja o segundo arquivo</a>
+
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+        </ul>
+        <hr>
+        <hr>
+
+        <ol>
+            <li>Primeiro</li>
+            <li>segundo</li>
+            <li>terceiro</li>
+        </ol>
+
+        <p>Paragrafo 1</p>
+    </body>
+</html> <!-- SEMPRE DEVE TERMINAR COM HTML FECHANDO-->

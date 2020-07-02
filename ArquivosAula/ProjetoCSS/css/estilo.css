@@ -1,0 +1,148 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: rgb(54, 46, 87);
+    margin: 0;
+}
+
+.primeiro{
+    background-image: url(../imagensblog/framework1.jpg);
+    height: 400px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+
+}
+
+.primeiro-content{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 5px;
+
+}
+
+.primeiro-content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 3px 3px 5px rgb(20, 17, 17);
+    
+}
+
+.primeiro-content p{
+    background-color: rgba(0,0,0, 0.7);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    margin-top: 100px;
+}
+
+.primeiro nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+    
+}
+
+
+.primeiro nav li{ /* arrumando os botões de cima */
+    display: inline-block;  /* deixando-os em linha */
+    list-style: none;
+    border: 1px solid rgb(15, 1, 1);
+}
+
+.primeiro nav a{
+    background: rgba(0,0,0, 0.5); /* aplicando transparencia */
+    display: block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+
+}
+
+.primeiro nav a:hover{
+    background: rgba(0,0,0, 1);
+}
+
+main{
+    width: 80%;
+    margin: auto;
+
+}
+
+.content-section{
+    background-color: rgb(55, 54, 104);
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+}
+
+.card p{
+    background-color: rgb(29, 18, 54);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 15px;
+}
+.card img{
+    width: 100%;  /* ajustando o tamanho da imagem */
+    display: block;
+}
+.segundo{
+    border-bottom: solid 2px rgb(20, 1, 1);
+    padding: 10px;
+    background: rgb(0, 37, 78);
+}
+
+
+.segundo h2{
+    margin: 0;
+}
+
+.rodape{
+    height: 80px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background: #6b6c68;
+}
+
+.select{
+    padding: 10px;
+    background: rgb(163, 163, 163);
+    margin-top: 5px;
+}
+
+.email{
+    background: rgb(163, 163, 163);
+    padding: 5px;
+    margin-top: auto;
+}
+
+.idade{
+    padding: 5px;
+    margin-top: 10px;
+    background: rgb(163, 163, 163);
+    height: 20px;
+    width: 150px;
+}
+.sexo{
+    padding: 15px;
+    display: inline-block;
+    margin-top: auto;
+}
+
+.mensagem{
+    background: rgb(163, 163, 163);
+}

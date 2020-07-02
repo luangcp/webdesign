@@ -1,0 +1,29 @@
+Estruturando Layout
+
+Wireframe
+
+<div id="...">
+    <header> </header>  -> cabeçalho 
+
+    <nav> </nav>  -> navegação principal da pagina
+
+    <main> </main>  -> mostra o conteudo principal da pagina
+
+    <footer< </footer> -> rodapé
+
+<div>
+
+OUTRAS TAG SEMANTICAS
+
+<section> -> representa uma seção da pagina, demarca uma area do conteudo relevante
+
+<article> -> conteudo principal da pagina, chamada pro conteudo principal
+
+<aside> -> conteudo a parte do site (exemplo: propagandas)
+
+TAGS NAO SEMANTICAS:
+
+<div> -> criar blocos
+
+<span> -> dentro de um determinado texto, exemplo: dentro de um paragrafo
+

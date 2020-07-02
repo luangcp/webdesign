@@ -1,0 +1,78 @@
+<!DOCTYPE html> <!-- PRIMEIRA COISA A SE COLOCAR NA PAGINA SEMPRE-->
+
+<!-- doctype informa ao agente de usuario a versão do html
+que deve ser renderizada-->
+
+<html lang="pt-br"> <!--COLOCAR SEMPRE A LINGUAGEM NA ABERTURA HTML-->
+    <head> <!-- Bom lembrar que o head tem coisas ocultas que não aparecem no site mas são importantes pra estruturação do site-->
+        <title> Formulario de login </title>
+        <meta charset="utf-8">  <!--lembrar de colocar é importante pra codificação pra poder usar ç, ~, etc..-->
+        <meta name="author" content="Luan"> <!--Nome do autor nos mecanismos de busca-->
+        <meta name="description" content="login"> <!-- Descrição, tambem importante pros mecanismos de busca-->
+        <meta name="keywords" content="html5, tecnologia"> <!--Listas de tags, tambem importantes para mecanismos de busca-->
+
+        <style>
+            .formLogin{
+                width: 250px;
+                margin: 50px auto 0;
+                font-family: sans-serif;
+            }
+
+            .formLogin fieldset{
+                background: #ccc;
+            }
+
+            .formLogin legend{
+                background: rgb(3, 255, 200);
+                display: inline-block;
+                padding: 10px;
+            }
+
+            .formLogin label{
+                margin-top: 15px;
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            #user, #pass, .btn{
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 15px;
+                font-size: 18px;
+                border: none;
+            }
+            #user, #pass{
+                background: rgb(1, 55, 77);
+            }
+
+            #user:focus, #pass:focus{
+                background: white;
+            }
+
+            .btn{
+                margin-top: 15px;
+            }
+
+            #user{
+                margin-bottom: 15px;
+            }
+            
+        </style>
+    </head>
+
+    <body> <!-- A partir daqui inicia o site -->
+        <h1>LUANBOOK</h1>
+        <form action="pagina.php" method="POST" class="formLogin">
+            <fieldset>
+                <legend>Login</legend>
+                <label for="user">User:</label>
+                <input type="text" name="text" id="user" autofocus>
+                <label for="pass">Password:</label>
+                <input type="password" name="pass" id="pass">
+                <input type="submit" value="Login" class="btn">
+            </fieldset>
+            
+            </form>
+    </body>
+</html> <!-- SEMPRE DEVE TERMINAR COM HTML FECHANDO-->

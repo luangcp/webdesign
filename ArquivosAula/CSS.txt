@@ -1,0 +1,80 @@
+CSS -> cascating style sheets (folhas de estilo em cascata)
+
+Sintaxe: 
+
+seletor -> quem eu quero mudar 
+declaração -> tem a propriedade e o valor
+
+seletor { propriedade: valor; }
+
+exemplo:
+
+seletor é h1 e eu quero mudar a cor pra vermelho
+
+h1{ color: red; }
+
+podemos ter também duas declarações
+
+h1{
+    color: red;
+    font-size: 16px;
+}
+
+COMO INCLUIR EM UMA PAGINA HTML?
+
+Inline: colocado como atributo la no HTML (não recomendado)
+    <p style="...">...</p>
+
+Interno: entre duas tags dentro do head (não recomendado tbm)
+<style> ... </style>
+
+Externo: criar um arquivo externo e vincular o arquivo em todas as paginas do Site 
+<link href=" .css" rel="stylesheet">
+
+
+Seletores de elemento: selecionar pela tags
+HTML :
+<p> ... </p>
+
+CSS:
+p {...}
+
+Seletores de classes 
+HTML
+<p class="minha-classe"> ... </p>
+
+CSS
+.minha-classe{...}
+
+Seletores de id  -> So pode ser utilizado um valor de id por pagina
+HTML
+<p id="meu-id"> ... </p>
+
+CSS
+#MEU-ID {...}
+
+
+PROPRIEDADES:
+
+fonts:
+font-family -> familia da fonta
+font-size -> tamanho da fonte
+font-style -> se é italico
+font-variant -> muda a forma de escrita
+
+text:
+text-align -> texto a direita ou esquerda
+text-decoration -> sublinhado
+text-ident -> se tem um espaçamento no paragrafo ou nao
+text-transform -> se quer escrever td maiusculo ou td minusculo
+
+Cor LUZ -> CODIGOS HEXADECIMAIS
+#RGB
+#FFFFFF -> BRANCO
+#00FF00 -> VERDE
+#FF0000 -> vermelho
+#0000FF -> AZUL 
+#FFFF00 -> AMARELO 
+#FF00FF -> LILAS 
+
+color & background-color 

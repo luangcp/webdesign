@@ -1,0 +1,71 @@
+Propriedade float -> estruturar layout
+também usado para manutenção em sites antigos
+
+usa-se: right; left; none;
+
+Fluxo Normal: -> da mesma forma que está no html, nenhum
+tipo de float aplicado (none)
+
+#container div{
+    widht: 350px;
+    float:none;
+}
+
+<div id=!container">
+    <div if="div1"></div>
+    <div if="div2"></div>
+    <div if="div3"></div>
+</div>
+
+Float left: -> vai tirar do fluxo normal e os elementos que estoa embaixo vao se encaixar de alguma forma
+
+#container div{
+    widht: 350px;
+    float: none;
+}
+
+#div2{
+    float: left;
+}
+
+<div id="container">
+    <div if="div2"></div>
+    <div if="div3"></div>
+    <div if="div4"></div>
+</div>
+
+Float Right: -> muda completamente, vai parar de ver a altura. UM EFEITO COLETERAL
+
+#container div{
+    widht: 350px;
+    float: none;
+}
+
+#div2{
+    float: right;
+}
+
+<div id="container">
+    <div if="div2"></div>
+    <div if="div3"></div>
+    <div if="div4"></div>
+</div>
+
+
+PROPRIEDADE CLEAR: -> Serve pra limpar algum elemento que tenha float
+
+right; left; none;
+
+#container div{
+    widht: 350px;
+    float: none;
+}
+
+.div2{float: left}
+.div3{clear: left;}
+
+<div id="container">
+    <div id="div1"></div>
+    <div id="div1"></div>
+    <div id="div1"></div>
+</div>

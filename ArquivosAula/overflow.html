@@ -1,0 +1,70 @@
+<!--A PROPRIEDADE OVERFLOW É PRA TRATAR O CONTEUDO QUE EXCEDE O ESPAÇO-->
+
+<!DOCTYPE html> <!-- PRIMEIRA COISA A SE COLOCAR NA PAGINA SEMPRE-->
+
+<!-- doctype informa ao agente de usuario a versão do html
+que deve ser renderizada-->
+
+<html lang="pt-br"> <!--COLOCAR SEMPRE A LINGUAGEM NA ABERTURA HTML-->
+    <head> <!-- Bom lembrar que o head tem coisas ocultas que não aparecem no site mas são importantes pra estruturação do site-->
+        <title> página de exemplo estrutura basica</title>
+        <meta charset="utf-8">  <!--lembrar de colocar é importante pra codificação pra poder usar ç, ~, etc..-->
+        <meta name="author" content="Luan"> <!--Nome do autor nos mecanismos de busca-->
+        <meta name="description" content="lista de documentos"> <!-- Descrição, tambem importante pros mecanismos de busca-->
+        <meta name="keywords" content="html5, tecnologia"> <!--Listas de tags, tambem importantes para mecanismos de busca-->
+
+        <style>
+
+            div{
+                padding: 2%px;
+                margin: 50px 2%;
+                border: 1px solid black;
+                width: 20%;
+                float: left;
+                height: 100px;
+                font-family: sans-serif;
+                font-size: 18px;
+            }
+
+            .div1{
+                overflow: visible;
+            }
+
+            .div2{
+                overflow: hidden;
+            }
+
+            .div3{
+                overflow: scroll;
+            }
+
+            .div4{
+                overflow: auto;
+            }
+            
+        </style>
+    </head>
+
+    <body> <!-- A partir daqui inicia o site -->
+        
+        <div class="div1">
+            <p>blablablablablablablablablablablablablablablablablabblablablablablablablablablablablablablablablablablabblablablablablablablablablablablablablablablablablab</p>
+        </div>
+
+        <div class="div2">
+            <p>blablablablablablablablablablablablablablablablablabblablablablablablablablablablablablablablablablablabblablablablablablablablablablablablablablablablablab</p>
+        </div>
+
+        <div class="div3">
+            <p>blablablablablablablablablablablablablablablablablabblablablablablablablablablablablablablablablablablabblablablablablablablablablablablablablablablablablab</p>
+
+        </div>
+
+        <div class="div4">
+            <p>blablablablablablablablablablablablablablablablablabblablablablablablablablablablablablablablablablablabblablablablablablablablablablablablablablablablablab</p>
+
+        </div>
+
+
+    </body>
+</html> <!-- SEMPRE DEVE TERMINAR COM HTML FECHANDO-->

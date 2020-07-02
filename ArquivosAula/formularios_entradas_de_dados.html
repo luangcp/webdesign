@@ -1,0 +1,122 @@
+<!DOCTYPE html> <!-- PRIMEIRA COISA A SE COLOCAR NA PAGINA SEMPRE-->
+
+<!-- doctype informa ao agente de usuario a versão do html
+que deve ser renderizada-->
+
+<html lang="pt-br"> <!--COLOCAR SEMPRE A LINGUAGEM NA ABERTURA HTML-->
+    <head> <!-- Bom lembrar que o head tem coisas ocultas que não aparecem no site mas são importantes pra estruturação do site-->
+        <title> Formulario de login </title>
+        <meta charset="utf-8">  <!--lembrar de colocar é importante pra codificação pra poder usar ç, ~, etc..-->
+        <meta name="author" content="Luan"> <!--Nome do autor nos mecanismos de busca-->
+        <meta name="description" content="login"> <!-- Descrição, tambem importante pros mecanismos de busca-->
+        <meta name="keywords" content="html5, tecnologia"> <!--Listas de tags, tambem importantes para mecanismos de busca-->
+
+        <style>
+            body{
+                background: rgb(189, 188, 188);
+                font-family: sans-serif;
+            }
+            h1{
+                font-family: sans-serif;
+                font-size: 10;
+
+            }
+            .select{
+                padding: 10px;
+                background: rgb(3, 168, 218);
+                margin-top: 5px;
+            }
+
+            .email{
+                background: rgb(168, 149, 149);
+                padding: 5px;
+                margin-top: auto;
+            }
+
+            .idade{
+                padding: 5px;
+                margin-top: 10px;
+                background: rgb(81, 161, 65);
+                height: 20px;
+                width: 150px;
+            }
+            .sexo{
+                padding: 15px;
+                display: inline-block;
+                margin-top: auto;
+            }
+
+        </style>
+    </head>
+
+    <body> <!-- A partir daqui inicia o site -->
+        <h1>CADASTRADOR DE CURRICULO</h1>
+        <form action="pagina.php" method="POST" class="formLogin">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <label>Email</label>
+                <input class="email" type="email" required placeholder="Digite um email valido"> 
+                <br>
+                <label>Idade</label>
+                <input class="idade" type="number" min="0" max="1000" placeholder="Escreva sua idade">
+                <p>Sexo:</p>
+                <label>Masculino
+                <input class="sexo" type="radio" name="sexo" value="M">
+                </label>
+
+                <label>Feminino
+                <input class="sexo" type="radio" name="sexo" value="F">
+                </label>
+                <br>
+
+                <label>Estado</label>
+                <select class="select"> 
+                    <option value="0">Selecione</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Rio de Janeiro</option>
+                    <option value="MG">Rio Grande do Sul</option>
+                </select>
+                <br>
+                <label>Nascimento</label>
+                <input type="date">
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Área de interesse</legend>
+
+                <label><input type="checkbox" name="python" value="python">Python </label>
+                <label><input type="checkbox" name="html" value="html">HTML </label>
+                <label><input type="checkbox" name="css" value="css">CSS </label>
+                <label><input type="checkbox" name="c/c++" value="c/c++">C/C++ </label>
+                <label><input type="checkbox" name="java" value="java">JAVA </label>
+                <label><input type="checkbox" name="autocad" value="autocad">AUTOCAD </label>
+                <label><input type="checkbox" name="solidworks" value="solidworks">SOLIDWORKS </label>
+                <label><input type="checkbox" name="sketchup" value="sketchup">SKETCHUP </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Mensagem</legend>
+                <textarea name="msg" cols="30" rows="10" placeholder="Escreva seu curriculo"></textarea>
+
+                <textarea name="contrato" cols="30" rows="10" readonly>Aqui entra o texto do contrato que precisa ser aceito
+                </textarea>
+                <label><input type="checkbox">Li e aceito</label>
+
+                <input type="range" min="0" max="100">
+                <input type="time">
+                <input type="color">
+
+
+
+            </fieldset>
+                <input type="submit" value="mandar">
+                <input type="button" value="button">
+                <input type="reset" value="limpar">
+            
+            
+            </form>
+    </body>
+</html> <!-- SEMPRE DEVE TERMINAR COM HTML FECHANDO-->

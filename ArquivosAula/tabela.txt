@@ -1,0 +1,61 @@
+TABELAS -> serve pra mostrar dados tabulares
+
+Principais tags:
+OBS: É NECESSARIO UM CONJUNTO DE AO MENOS 3 tags
+
+<table>
+    <tr>
+        <td></td>     TABELA COM UMA LINHA E UMA COLUNA
+    </tr>
+</table>
+
+
+<table>
+    <tr>
+        <td>1A</td> <td> 1B</td>
+    </tr>
+    <tr>
+        <td>2A</tb> <td>2B</td>     TABELA COM 3 LINHAS E 2 COLUNAS
+    </tr>
+    <tr>
+        <td>3A</td> <td>3B</td>
+    </tr>
+</table>
+
+
+
+Atributos de mesclagem: colspan e rowspan
+
+
+<table>
+    <tr>
+        <td colspan="2">1A</td>    -> mesclando 2 colunas
+    </tr>
+    <tr>
+        <td>2A</tb> <td>2B</td>     
+    </tr>
+    <tr>
+        <td>3A</td> <td>3B</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td rowspan="2">1A</td> 
+        <td>1B</td>   -> mesclando 2 colunas
+    </tr>
+    <tr>
+        <td>2B</td>     
+    </tr>
+    <tr>
+        <td>3A</td> <td>3B</td>
+    </tr>
+</table>
+
+
+adicionar semantica com table header ou com table body
+
+com cabeçalho e corpo
+
+PROPRIEDADE BORDER-COLLAPSE -> separete e COLLAPSE
+essa propriedade pode dar um espaço entre as colunas ou não

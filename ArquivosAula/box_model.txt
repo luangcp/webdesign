@@ -1,0 +1,19 @@
+Box Model ->
+
+propriedades: widht/height, margin, padding, border, box-sizing
+
+por padrão o padding vai somar ao tamanho final do elemento
+
+BLOCK:
+
+div{
+    widht: 150px;
+    height:100px;
+    padding:25px;
+}
+
+uma div com largura de 150 e uma altura de 100 com um padding de 25 o tamanho final do elemento sera
+200 de largura e 150 de altura
+
+é somado o padding ao tamanho final do elemento 
+

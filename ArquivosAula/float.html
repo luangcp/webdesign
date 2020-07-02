@@ -1,0 +1,86 @@
+<!DOCTYPE html> <!-- PRIMEIRA COISA A SE COLOCAR NA PAGINA SEMPRE-->
+
+<!-- doctype informa ao agente de usuario a versão do html
+que deve ser renderizada-->
+
+<html lang="pt-br"> <!--COLOCAR SEMPRE A LINGUAGEM NA ABERTURA HTML-->
+    <head> <!-- Bom lembrar que o head tem coisas ocultas que não aparecem no site mas são importantes pra estruturação do site-->
+        <title> página de exemplo estrutura basica</title>
+        <meta charset="utf-8">  <!--lembrar de colocar é importante pra codificação pra poder usar ç, ~, etc..-->
+        <meta name="author" content="Luan"> <!--Nome do autor nos mecanismos de busca-->
+        <meta name="description" content="lista de documentos"> <!-- Descrição, tambem importante pros mecanismos de busca-->
+        <meta name="keywords" content="html5, tecnologia"> <!--Listas de tags, tambem importantes para mecanismos de busca-->
+
+        <style>
+            #container{
+                width: 80%;
+                padding: 15px;
+                background: #ccc;
+                overflow: auto;
+
+            }
+
+            #container div{
+                width: 150px;
+                height: 50px;
+                border: 2px solid red;
+                margin: 5px;
+            }
+
+            #div1{
+                float: left;
+            }
+
+            #div2{
+                float: left;
+
+            }
+
+            #div3{
+                background: yellow;
+                clear: both; /* sempre vai limpar independente se é right ou left */
+            }
+
+            header{
+                background: #ccc;
+                height: 50px;
+            }
+
+            nav{
+                width: 25%;
+                height: 50px;
+                background: orange;
+                float: left;
+            }
+
+            main{
+                width: 70%;
+                height: 100px;
+                background: blueviolet;
+                float: left;
+            }
+
+            footer{
+                height: 50px;
+                background: brown;
+                clear: both;
+            }
+            
+        </style>
+    </head>
+
+    <body> <!-- A partir daqui inicia o site -->
+        <h1>Estruturando layoult com Float</h1>
+        <div id="container">
+            <div id="div1">div1</div>
+            <div id="div2">div2</div>
+            <div id="div3">div3</div>
+        </div>
+        <hr>
+
+        <header> header </header>
+        <nav> nav </nav>
+        <main>main</main>
+        <footer>footer</footer>
+    </body>
+</html> <!-- SEMPRE DEVE TERMINAR COM HTML FECHANDO-->
