@@ -1,0 +1,362 @@
+<!DOCTYPE html> <!-- PRIMEIRA COISA A SE COLOCAR NA PAGINA SEMPRE-->
+
+<!-- doctype informa ao agente de usuario a versão do html
+que deve ser renderizada-->
+
+<html lang="pt-br"> <!--COLOCAR SEMPRE A LINGUAGEM NA ABERTURA HTML-->
+    <head> <!-- Bom lembrar que o head tem coisas ocultas que não aparecem no site mas são importantes pra estruturação do site-->
+        <title> Projeto Strata</title>
+        <meta charset="utf-8">  <!--lembrar de colocar é importante pra codificação pra poder usar ç, ~, etc..-->
+        <meta name="author" content="Luan"> <!--Nome do autor nos mecanismos de busca-->
+        <meta name="description" content="Projeto Strata"> <!-- Descrição, tambem importante pros mecanismos de busca-->
+        <meta name="keywords" content="html5, tecnologia"> <!--Listas de tags, tambem importantes para mecanismos de busca-->
+
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+        <style>
+
+            
+        </style>
+    </head>
+
+    <body> <!-- A partir daqui inicia o site -->
+        <header class="main-header">
+            <a href="index.html" class="main-header-link">
+                <img src="#" alt="texto qualquer">
+            </a>
+            <h1>
+                <strong>Luan Gabriel Cardoso Pinheiro</strong>, <br>
+                Engenheiro de Controle e Automação<br>
+                Programador HTML5 e CSS3<br>
+                Retirado de <a href="http://html5up.net">html5up.net</a>
+            </h1>
+        </header>
+        <main class="main-content">
+
+            <section class="main-content-section">
+                <h2>O que é a programação?</h2>
+                <p>Uma linguagem de programação é um método padronizado para expressar
+                instruções para um computador, ou seja, é um conjunto de regras sintáticas
+                e semânticas usadas para definir um programa de computador.
+                Uma linguagem permite que um programador especifique precisamente sobre
+                quais dados um computador vai atuar, como estes dados serão armazenados
+                ou transmitidos e quais ações devem ser tomadas sob várias circunstâncias.</p>
+
+                <a href="#" title="Veja mais" class="button-default">Veja mais</a>
+
+            </section>
+            
+
+            <section class="main-content-section">
+
+                <h3>Albuns</h3>
+                <article class="recent-works-card">
+                    <a href="images/fulls/01.jpg">
+                        <img src="images/fulls/01.jpg" alt="Descrição">
+                    </a>
+                    <p class="recent-works-card-title">Descrição</p>
+                    <p>descrição 1</p>
+                </article>
+
+                <article class="recent-works-card">
+                    <a href="images/fulls/02.jpg">
+                        <img src="images/fulls/02.jpg" alt="Descrição">
+                    </a>
+                    <p class="recent-works-card-title">Descrição</p>
+                    <p>descrição 2</p>
+                </article>
+
+                <article class="recent-works-card">
+                    <a href="images/fulls/03.jpg">
+                        <img src="images/fulls/03.jpg" alt="Descrição">
+                    </a>
+                    <p class="recent-works-card-title">Descrição</p>
+                    <p>descrição 3</p>
+                </article>
+
+                <article class="recent-works-card">
+                    <a href="images/fulls/04.jpg">
+                        <img src="images/fulls/04.jpg" alt="Descrição">
+                    </a>
+                    <p class="recent-works-card-title">Descrição</p>
+                    <p>descrição 4</p>
+                </article>
+
+                <article class="recent-works-card">
+                    <a href="images/fulls/05.jpg">
+                        <img src="images/fulls/05.jpg" alt="Descrição">
+                    </a>
+                    <p class="recent-works-card-title">Descrição</p>
+                    <p>descrição 5</p>
+                </article>
+
+                <article class="recent-works-card">
+                    <a href="images/fulls/06.jpg">
+                        <img src="images/fulls/06.jpg" alt="Descrição">
+                    </a>
+                    <p class="recent-works-card-title">Descrição</p>
+                    <p>descrição 6</p>
+                </article>
+
+                <a href="#" title="Veja o Portifolio Completo" class="button-default">Veja o Portifolio Completo</a>
+
+            </section>
+
+            <section class="main-content-section">
+                <h3>Contato</h3>
+                <p>Entre em contato</p>
+
+                <form action="#" method="POST">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+
+                    <label for="mensagem">Digite sua mensagem</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+
+                    <input type="submit" value="Enviar">
+                </form>
+
+                <address>
+                    <p>
+                        <span>Endereço</span>
+                        Rua Felipe Alencar de Souza 77, BH | MG | BRASIL |
+                    </p>
+
+                    <p>
+                        <span>Telefone</span>
+                        31 992492453
+                    </p>
+
+                    <p>
+                        <span>Email</span>
+                        luan.gabriel.cardoso@hotmail.com
+                    </p>
+                </address>
+
+            <section class="main-content-section">
+                <h3>Elementos</h3>
+
+                <h4>Para que servem as linguagens de programação?</h4>
+                <p>Você já deve ter ouvido falar em algo como “o computador é burro” por ai, não é mentira,
+                    um computador só é capaz de entender Sim e Não (para ser mais especifico, 1 e 0 ) e efetuar
+                    uma sequencia de passos programados via hardware, pra resumir isso, todas as instruções dadas
+                    a um computador são sequências numéricas compostas por 0 e 1 (Ex: 01101100). Você já parou pra 
+                    pensar o trabalho que dá para escrever um programa inteiro usando instruções compostas por combinações
+                    de 0 e 1? É pra isso que existem as linguagens de programação, para facilitar a comunicação entre programador
+                    e hardware, o programador escreve instruções em uma linguagem bem próxima da que as pessoas usam pra se comunicar,
+                    depois um segundo programa traduz o que o programador escreveu para sequencias compostas por 0 e 1 (Compiladores) ou interpreta 
+                    as instruções escritas pelo programador e as executa (Interpretador).
+                    Exemplo de código <code>if a==b: </code>.
+                    <a href="#">Link</a>
+                </p>
+
+                <blockquote cite="http://developer.mozilla.org">
+                    <p>Esta é uma citação tirada da 
+                        Mozilla Developer Center.
+                    </p>
+                </blockquote>
+
+                <p>De acordo com Website Mozilla
+                    <q cite="https://www.mozilla.org/en-US/about/history/details/">Firefox 1.0 was released in 
+                    2004 and became a big sucess</q>
+                </p>
+
+                <h4>Codigo</h4>
+                <pre>
+                    <code>
+"""
+Autor: Luan Pinheiro
+Data: 21/01/2020
+Programa referente a brincadeira feita no grupo sobre criar um açougue online
+
+"""
+# -*- coding: UTF-8 -*-
+produto = ''
+compras = []
+picanha = 30
+alcatra = 25
+frango = 20
+total = 0
+while produto != 'sair':
+    print('-----------Bem-vindo ao açougue corote, a seguir estão os produtos disponiveis----------- \n')
+    print('Carne de picanha = R$ 30,00 ')
+    print('Carne de alcatra = R$ 25,00 o Kg ')
+    print('Frango Assado = R$ 20,00 a unidade ')
+    # print(' ')  # Para adicionar outros produtos remova o comentario antes de print
+    print('Adicione os produtos no carrinho e para encerrar escreva "sair" ')
+    produto = input()
+    if produto != 'sair':
+        compras.append(produto)
+        if produto == 'picanha' or 'carne de picanha' or 'Carne de picanha' or 'Picanha':
+            total = total+30
+        elif produto == 'alcatra' or 'carne de alcatra' or 'Carne de alcatra' or 'Alcatra':
+            total = total + 25
+        elif produto == 'frango' or 'frango assado' or 'Frango assado' or 'Frango':
+            total = total + 20
+        else:
+            print('Não possuimos esse produto')
+for produto in compras:
+    print(f'As suas compras são: {produto}')
+    print(f'O total a pagar é: {total}')
+    pagamento = input('Qual a forma de pagamento? \n 1- Dinheiro \n 2- Cartão \n')
+    if pagamento == '1' or 'dinheiro' or 'Dinheiro':
+        print("Pagamento em dinheiro \n ")
+        endereco = input('Digite seu endereço: \n')
+        print(f'Certo, a seu pedido foi confirmado e será entregue em {endereco} o entregador receberá o dinheiro\n')
+        break
+    if pagamento == '2' or 'Cartao' or 'cartao':
+        print("Pagamento em cartão \n ")
+        endereco = input('Digite seu endereço: \n')
+        print(f'Certo, a seu pedido foi confirmado e será entregue em {endereco} o entregador levará a maquininha\n')
+        break
+    else:
+        print('Invalido')
+print('Fim')
+
+                    </code>
+                </pre>                
+
+                <h4>Listas</h4>
+
+                <h5>Não Ordenadas</h5>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                </ul>
+
+                <h5>Ordenada</h5>
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                </ol>
+
+                <h5>Alternate</h5>
+                <ul class="ul-alternate">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                </ul>
+
+                <h5>icons</h5>
+                <ul>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-facebook-square"></i></li>
+                </ul>
+
+                <h5>Actions</h5>
+                <p>
+                    <a href="#" class="button-default">Default</a>
+                    <a href="#" class="button-default button-default-stroke">Default</a>
+
+                </p>
+
+                <h4>Tabela</h4>
+                <h5>Default</h5>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td>100.00</td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td>Item 1</td>
+                            <td>Bola de Futebol</td>
+                            <td>29.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item 2</td>
+                            <td>Caixa de bombom</td>
+                            <td>19.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item 3</td>
+                            <td>Capa para notebook</td>
+                            <td>29.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item 4</td>
+                            <td>Chinelo</td>
+                            <td>19.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item 5</td>
+                            <td>Case de iphone</td>
+                            <td>29.99</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h5>Alternate</h5>
+
+                <table class="table-alternate">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td>100.00</td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td>Item 1</td>
+                            <td>Bola de Futebol</td>
+                            <td>29.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item 2</td>
+                            <td>Caixa de bombom</td>
+                            <td>19.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item 3</td>
+                            <td>Capa para notebook</td>
+                            <td>29.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item 4</td>
+                            <td>Chinelo</td>
+                            <td>19.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item 5</td>
+                            <td>Case de iphone</td>
+                            <td>29.99</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+
+
+        </main>
+        <footer class="main-footer"></footer>
+    </body>
+</html> <!-- SEMPRE DEVE TERMINAR COM HTML FECHANDO-->
