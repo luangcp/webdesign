@@ -1,0 +1,12 @@
+PARA UTILIZAR DIFERENTES TIPOS DE FONTES:
+
+Ir para o site: google fonts 
+pesquisar a fonte que deseja e clicar nela
+adicionar a familia 
+clicar em embed (embutir)
+
+copiar o link exemplo:
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+e depois aplicar no css:
+font-family: 'Open Sans', sans-serif;
