@@ -24,11 +24,11 @@ que deve ser renderizada-->
             <a href="index.html" class="main-header-link">
                 <img src="images/avatar.jpg" alt="texto qualquer">
             </a>
-            <h1>
+            <h1 class="main-header-title">
                 <strong>Luan Gabriel Cardoso Pinheiro</strong>, <br>
                 Engenheiro de Controle e Automação<br>
                 Programador HTML5 e CSS3<br>
-                Retirado de <a href="http://html5up.net">html5up.net</a>
+                Retirado de <a href="http://html5up.net" class="main-header-link">html5up.net</a>
             </h1>
         </header>
         <main class="main-content">
@@ -153,10 +153,17 @@ que deve ser renderizada-->
                     <a href="#">Link</a>
                 </p>
 
+                <h1>Titulo h1</h1>
+                <h2>Titulo h2</h2>
+                <h3>titulo h3</h3>
+                <h4>Titulo h4</h4>
+                <h5>Titulo h5</h5>
+                <h6>Titulo h6</h6>
+
                 <blockquote cite="http://developer.mozilla.org">
-                    <p>Esta é uma citação tirada da 
+                    Esta é uma citação tirada da 
                         Mozilla Developer Center.
-                    </p>
+                
                 </blockquote>
 
                 <p>De acordo com Website Mozilla
@@ -181,7 +188,7 @@ alcatra = 25
 frango = 20
 total = 0
 while produto != 'sair':
-    print('-----------Bem-vindo ao açougue corote, a seguir estão os produtos disponiveis----------- \n')
+    print('----Bem-vindo ao açougue corote, a seguir estão os produtos disponiveis----\n')
     print('Carne de picanha = R$ 30,00 ')
     print('Carne de alcatra = R$ 25,00 o Kg ')
     print('Frango Assado = R$ 20,00 a unidade ')
@@ -205,12 +212,12 @@ for produto in compras:
     if pagamento == '1' or 'dinheiro' or 'Dinheiro':
         print("Pagamento em dinheiro \n ")
         endereco = input('Digite seu endereço: \n')
-        print(f'Certo, a seu pedido foi confirmado e será entregue em {endereco} o entregador receberá o dinheiro\n')
+        print(f'Certo, a seu pedido foi confirmado e será entregue em {endereco}\n')
         break
     if pagamento == '2' or 'Cartao' or 'cartao':
         print("Pagamento em cartão \n ")
         endereco = input('Digite seu endereço: \n')
-        print(f'Certo, a seu pedido foi confirmado e será entregue em {endereco} o entregador levará a maquininha\n')
+        print(f'Certo, a seu pedido foi confirmado e será entregue em {endereco}\n')
         break
     else:
         print('Invalido')
@@ -220,39 +227,44 @@ print('Fim')
                 </pre>                
 
                 <h4>Listas</h4>
+                <div class="row">
+                    <div class="col-2">
+                        <h5>Não Ordenadas</h5>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
 
-                <h5>Não Ordenadas</h5>
-                <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
-                    <li>Item 5</li>
-                </ul>
+                        <h5>Ordenada</h5>
+                        <ol>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ol>
+                    </div>
 
-                <h5>Ordenada</h5>
-                <ol>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
-                    <li>Item 5</li>
-                </ol>
+                    <div class="col-2">
+                        <h5>Alternate</h5>
+                        <ul class="ul-alternate">
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
 
-                <h5>Alternate</h5>
-                <ul class="ul-alternate">
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
-                    <li>Item 5</li>
-                </ul>
-
-                <h5>icons</h5>
-                <ul>
-                    <li><i class="fab fa-twitter"></i></li>
-                    <li><i class="fab fa-facebook-square"></i></li>
-                </ul>
+                        <h5>icons</h5>
+                        <ul class="ul-icons">
+                            <li><i class="fab fa-twitter"></i></li>
+                            <li><i class="fab fa-facebook-square"></i></li>
+                        </ul>
+                    </div>
+                </div>
 
                 <h5>Actions</h5>
                 <p>
@@ -309,7 +321,7 @@ print('Fim')
 
                 <h5>Alternate</h5>
 
-                <table class="table-alternate">
+                <table class="table table-alternate">
                     <thead>
                         <tr>
                             <th>Name</th>
